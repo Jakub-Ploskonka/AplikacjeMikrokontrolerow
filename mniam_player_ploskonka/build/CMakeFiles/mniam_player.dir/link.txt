@@ -1,0 +1,3 @@
+D:\kuba_am\cmake-4.0.3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\mniam_player.dir/objects.a
+D:\kuba_am\mingw64\bin\ar.exe qc CMakeFiles\mniam_player.dir/objects.a @CMakeFiles\mniam_player.dir\objects1.rsp
+D:\kuba_am\mingw64\bin\gcc.exe -mconsole -Wl,--whole-archive CMakeFiles\mniam_player.dir/objects.a -Wl,--no-whole-archive -o mniam_player.exe -Wl,--out-implib,libmniam_player.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mniam_player.dir\linkLibs.rsp

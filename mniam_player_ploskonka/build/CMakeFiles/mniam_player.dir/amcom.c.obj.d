@@ -1,0 +1,22 @@
+CMakeFiles/mniam_player.dir/amcom.c.obj: \
+ D:\kuba_am\mniam_player_ploskonka\amcom.c \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\string.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\crtdefs.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\corecrt.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\_mingw.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\_mingw_mac.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\vadefs.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\sec_api\string_s.h \
+ d:\kuba_am\mingw64\lib\gcc\x86_64-w64-mingw32\11.3.0\include\stdint.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\stdint.h \
+ d:\kuba_am\mingw64\lib\gcc\x86_64-w64-mingw32\11.3.0\include\stddef.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\stddef.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\stdio.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\_mingw_off_t.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\swprintf.inl \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\sec_api\stdio_s.h \
+ D:\kuba_am\mniam_player_ploskonka\amcom.h \
+ d:\kuba_am\mingw64\x86_64-w64-mingw32\include\assert.h

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "images-dev" />
+	<atlas>
+		<image file="anim.png" cols = "8" />
+		<image file="button.png"/>		
+		<image file="button-disabled.png"/>		
+		<image file="menu-background.png"/>		
+		<image file="game-background.png"/>
+		<image file="tester-background.png"/>			
+		<image file="score-board.png"/>		
+		<image file="player-idle.png"/>
+		<image file="player-eat.png" cols = "3" />
+		<image file="transistor.png"/>
+		<image file="glue.png"/>
+		<image file="player-arrow.png"/>
+		<image file="spark.png" cols = "8" rows = "8"/>
+	</atlas>
+	
+	<set path = "fonts" />
+	<font file="main.fnt" />	
+	<font file="retro.fnt" />	
+	<font file="arcade.fnt" />	
+	<font file="arcade-big.fnt" />	
+	<font file="arial.fnt" />	
+</resources>

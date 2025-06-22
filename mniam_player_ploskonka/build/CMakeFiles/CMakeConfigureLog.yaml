@@ -1,0 +1,329 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/kuba_am/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/4.0.3/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/CMakeScratch/TryCompile-5kyi58"
+      binary: "D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/CMakeScratch/TryCompile-5kyi58"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/CMakeScratch/TryCompile-5kyi58'
+        
+        Run Build Command(s): D:/kuba_am/cmake-4.0.3-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 D:/kuba_am/mingw64/bin/mingw32-make.exe -f Makefile cmTC_45a12/fast
+        D:/kuba_am/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_45a12.dir\\build.make CMakeFiles/cmTC_45a12.dir/build
+        mingw32-make[1]: Entering directory 'D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/CMakeScratch/TryCompile-5kyi58'
+        Building C object CMakeFiles/cmTC_45a12.dir/CMakeCCompilerABI.c.obj
+        D:\\kuba_am\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj -c D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\kuba_am\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --enable-libstdcxx-pch --enable-libstdcxx-time=yes --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/29548.gcc/gcc-11.3.0/build_mingw/mingw-w64 CFLAGS=-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.3.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_45a12.dir\\'
+         d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/cc1.exe -quiet -v -iprefix d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/ -D_REENTRANT D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_45a12.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\likos\\AppData\\Local\\Temp\\cc2EiAji.s
+        GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 11.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/kuba_am/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.3.0/include"
+        ignoring nonexistent directory "R:/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc/include"
+        ignoring nonexistent directory "/r/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc/include"
+        ignoring duplicate directory "d:/kuba_am/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed"
+        ignoring duplicate directory "d:/kuba_am/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/include
+         d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../include
+         d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed
+         d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 11.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 8add76b3fb7329069b414402d5e743c5
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_45a12.dir\\'
+         d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj C:\\Users\\likos\\AppData\\Local\\Temp\\cc2EiAji.s
+        GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
+        COMPILER_PATH=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/;d:/kuba_am/mingw64/bin/../libexec/gcc/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/;d:/kuba_am/mingw64/bin/../lib/gcc/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_45a12.exe
+        D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_45a12.dir\\link.txt --verbose=1
+        D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_45a12.dir/objects.a
+        D:\\kuba_am\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_45a12.dir/objects.a @CMakeFiles\\cmTC_45a12.dir\\objects1.rsp
+        D:\\kuba_am\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_45a12.dir/objects.a -Wl,--no-whole-archive -o cmTC_45a12.exe -Wl,--out-implib,libcmTC_45a12.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=D:\\kuba_am\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --enable-libstdcxx-pch --enable-libstdcxx-time=yes --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/29548.gcc/gcc-11.3.0/build_mingw/mingw-w64 CFLAGS=-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.3.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COMPILER_PATH=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/;d:/kuba_am/mingw64/bin/../libexec/gcc/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/;d:/kuba_am/mingw64/bin/../lib/gcc/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/;d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45a12.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45a12.'
+         d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/collect2.exe -plugin d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/liblto_plugin.dll -plugin-opt=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\likos\\AppData\\Local\\Temp\\cchUct4f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_45a12.exe d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0 -Ld:/kuba_am/mingw64/bin/../lib/gcc -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_45a12.dir/objects.a --no-whole-archive --out-implib libcmTC_45a12.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o
+        collect2 version 11.3.0
+        d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/liblto_plugin.dll -plugin-opt=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\likos\\AppData\\Local\\Temp\\cchUct4f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_45a12.exe d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0 -Ld:/kuba_am/mingw64/bin/../lib/gcc -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_45a12.dir/objects.a --no-whole-archive --out-implib libcmTC_45a12.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45a12.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45a12.'
+        mingw32-make[1]: Leaving directory 'D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/CMakeScratch/TryCompile-5kyi58'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/include]
+          add: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../include]
+          add: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed]
+          add: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/include] ==> [D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include]
+        collapse include dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../include] ==> [D:/kuba_am/mingw64/include]
+        collapse include dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed] ==> [D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed]
+        collapse include dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/include] ==> [D:/kuba_am/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include;D:/kuba_am/mingw64/include;D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed;D:/kuba_am/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/CMakeScratch/TryCompile-5kyi58']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/kuba_am/cmake-4.0.3-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 D:/kuba_am/mingw64/bin/mingw32-make.exe -f Makefile cmTC_45a12/fast]
+        ignore line: [D:/kuba_am/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_45a12.dir\\build.make CMakeFiles/cmTC_45a12.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/CMakeScratch/TryCompile-5kyi58']
+        ignore line: [Building C object CMakeFiles/cmTC_45a12.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\kuba_am\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj -c D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\kuba_am\\mingw64\\bin\\gcc.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --enable-libstdcxx-pch --enable-libstdcxx-time=yes --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/29548.gcc/gcc-11.3.0/build_mingw/mingw-w64 CFLAGS=-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.3.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_45a12.dir\\']
+        ignore line: [ d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/cc1.exe -quiet -v -iprefix d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/ -D_REENTRANT D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_45a12.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\likos\\AppData\\Local\\Temp\\cc2EiAji.s]
+        ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 11.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version UNKNOWN-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/kuba_am/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.3.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/r/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "d:/kuba_am/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/kuba_am/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/include]
+        ignore line: [ d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../include]
+        ignore line: [ d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/include-fixed]
+        ignore line: [ d:\\kuba_am\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 11.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version UNKNOWN-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 8add76b3fb7329069b414402d5e743c5]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_45a12.dir\\']
+        ignore line: [ d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj C:\\Users\\likos\\AppData\\Local\\Temp\\cc2EiAji.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.38]
+        ignore line: [COMPILER_PATH=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/]
+        ignore line: [d:/kuba_am/mingw64/bin/../libexec/gcc/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_45a12.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_45a12.exe]
+        ignore line: [D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_45a12.dir\\link.txt --verbose=1]
+        ignore line: [D:\\kuba_am\\cmake-4.0.3-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_45a12.dir/objects.a]
+        ignore line: [D:\\kuba_am\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_45a12.dir/objects.a @CMakeFiles\\cmTC_45a12.dir\\objects1.rsp]
+        ignore line: [D:\\kuba_am\\mingw64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_45a12.dir/objects.a -Wl --no-whole-archive -o cmTC_45a12.exe -Wl --out-implib libcmTC_45a12.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\kuba_am\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/29548.gcc/inst_gcc-11.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --enable-libstdcxx-pch --enable-libstdcxx-time=yes --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/29548.gcc/gcc-11.3.0/build_mingw/mingw-w64 CFLAGS=-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.3.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COMPILER_PATH=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/]
+        ignore line: [d:/kuba_am/mingw64/bin/../libexec/gcc/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45a12.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45a12.']
+        link line: [ d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/collect2.exe -plugin d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/liblto_plugin.dll -plugin-opt=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\likos\\AppData\\Local\\Temp\\cchUct4f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_45a12.exe d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0 -Ld:/kuba_am/mingw64/bin/../lib/gcc -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_45a12.dir/objects.a --no-whole-archive --out-implib libcmTC_45a12.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
+          arg [d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\likos\\AppData\\Local\\Temp\\cchUct4f.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_45a12.exe] ==> ignore
+          arg [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o] ==> obj [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o]
+          arg [-Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0] ==> dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0]
+          arg [-Ld:/kuba_am/mingw64/bin/../lib/gcc] ==> dir [d:/kuba_am/mingw64/bin/../lib/gcc]
+          arg [-Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib] ==> dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib]
+          arg [-Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../..] ==> dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_45a12.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_45a12.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o] ==> obj [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
+        ignore line: [collect2 version 11.3.0]
+        ignore line: [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/liblto_plugin.dll -plugin-opt=d:/kuba_am/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\likos\\AppData\\Local\\Temp\\cchUct4f.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_45a12.exe d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0 -Ld:/kuba_am/mingw64/bin/../lib/gcc -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib -Ld:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_45a12.dir/objects.a --no-whole-archive --out-implib libcmTC_45a12.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
+        linker tool for 'C': d:/kuba_am/mingw64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/kuba_am/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o] ==> [D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o]
+        collapse obj [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o] ==> [D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
+        collapse library dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0] ==> [D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0]
+        collapse library dir [d:/kuba_am/mingw64/bin/../lib/gcc] ==> [D:/kuba_am/mingw64/lib/gcc]
+        collapse library dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/kuba_am/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../lib] ==> [D:/kuba_am/mingw64/lib]
+        collapse library dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/kuba_am/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/kuba_am/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.3.0/../../..] ==> [D:/kuba_am/mingw64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/kuba_am/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtbegin.o;D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0/crtend.o]
+        implicit dirs: [D:/kuba_am/mingw64/lib/gcc/x86_64-w64-mingw32/11.3.0;D:/kuba_am/mingw64/lib/gcc;D:/kuba_am/mingw64/x86_64-w64-mingw32/lib;D:/kuba_am/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "D:/kuba_am/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "d:/kuba_am/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
+...

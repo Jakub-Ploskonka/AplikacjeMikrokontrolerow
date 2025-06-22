@@ -1,0 +1,3 @@
+D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/mniam_player.dir
+D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/edit_cache.dir
+D:/kuba_am/mniam_player_ploskonka/build/CMakeFiles/rebuild_cache.dir
