@@ -1,8 +1,7 @@
 #include "amcom.h"
 #include <stdint.h>
+#include "amcom_packets.h"
 
-/** AMCOM packet handler handling game packets. */
-void amcomPacketHandler(const AMCOM_Packet* packet, void* userContext);
 
 void aktualizacjaListyObiektow(AMCOM_ObjectState *objectArray, size_t *count, const AMCOM_ObjectState *newObject);
 
@@ -18,3 +17,5 @@ float katIskry(float threatAngle);
 
 float obliczKatRuchu(float myWspX, float myWspY);
 
+/** AMCOM packet handler handling game packets. */
+void amcomPacketHandler(const AMCOM_Packet* packet, void* userContext);

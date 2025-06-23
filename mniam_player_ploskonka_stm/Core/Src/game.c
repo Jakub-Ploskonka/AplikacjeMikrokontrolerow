@@ -1,18 +1,14 @@
-#include <windows.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
 #include <stdlib.h>
+#include "cmsis_os2.h"
+#include "game.h"
+#include <string.h>
 
 #include "amcom.h"
 #include "amcom_packets.h"
 
-#include "cmsis_os2.h"
-#include "game.h"
-#include <string.h>
 #include <FreeRTOS.h>
 #include <FreeRTOS_IP.h>
 #include <FreeRTOS_Sockets.h>
@@ -84,7 +80,7 @@ void obslugaAktualizacjiObiektu(const uint8_t *payload, size_t payload_length) {
             playerJakub.hp = hp;
         }
 
-        printf("Received object: type=%u no=%u hp=%u x=%.2f y=%.2f%s\n", type, no, hp, x, y, my_playerJakub ? "Gracz Jakub" : "");
+        //printf("Received object: type=%u no=%u hp=%u x=%.2f y=%.2f%s\n", type, no, hp, x, y, my_playerJakub ? "Gracz Jakub" : "");
 
         if (type < 4) {
             aktualizacjaListyObiektow(objects[type], &counts[type], &obj);
@@ -105,10 +101,13 @@ float obliczKat(float wsp_x1, float wsp_y1, float wsp_x2, float wsp_y2) {
 }
 
 float normalizujKat(float angle) {
-    while (angle < 0.0f) 
-        angle += 2 * PI;
-        while (angle >= 2 * PI) 
-            angle -= 2 * PI;
+	while (angle < 0.0f) {
+	    angle += 2 * PI;
+	}
+	while (angle >= 2 * PI) {
+	    angle -= 2 * PI;
+	}
+
     return angle;
 }
 
@@ -158,10 +157,12 @@ float obliczKatRuchu(float myWspX, float myWspY) {
 }
 
 
-void amPacketHandler(const AMCOM_Packet* packet, void* userContext) {
+void amcomPacketHandler(const AMCOM_Packet* packet, void* userContext) {
     uint8_t buf[AMCOM_MAX_PACKET_SIZE];              // buffer used to serialize outgoing packets
     size_t toSend = 0;                               // size of the outgoing packet
-    SOCKET ConnectSocket  = *((SOCKET*)userContext); // socket used for communication with the server
+    Socket_t socket = (Socket_t)userContext;    // socket used for communication with the server
+
+
     switch (packet->header.type) {
     case AMCOM_IDENTIFY_REQUEST:
         printf("Got IDENTIFY.request. Responding with IDENTIFY.response\n");

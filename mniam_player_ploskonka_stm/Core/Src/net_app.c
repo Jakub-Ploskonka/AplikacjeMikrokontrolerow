@@ -14,7 +14,7 @@ void NET_APPThread(void* arg) {
 	struct freertos_sockaddr serverAddress;
 	memset( &serverAddress, 0, sizeof(serverAddress) );
 	serverAddress.sin_port = FreeRTOS_htons( 2001 );
-	serverAddress.sin_address.ulIP_IPv4 = FreeRTOS_inet_addr_quick( 192, 168, 12, 1 );
+	serverAddress.sin_address.ulIP_IPv4 = FreeRTOS_inet_addr_quick( 192, 168, 40, 216 );
 	serverAddress.sin_family = FREERTOS_AF_INET4;
 
 	osDelay(1000);
