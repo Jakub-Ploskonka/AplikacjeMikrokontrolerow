@@ -1,0 +1,4 @@
+../Core/Src/amcom.c:10:17:AMCOM_UpdateCRC	1
+../Core/Src/amcom.c:18:6:AMCOM_InitReceiver	1
+../Core/Src/amcom.c:26:8:AMCOM_Serialize	7
+../Core/Src/amcom.c:58:6:AMCOM_Deserialize	18

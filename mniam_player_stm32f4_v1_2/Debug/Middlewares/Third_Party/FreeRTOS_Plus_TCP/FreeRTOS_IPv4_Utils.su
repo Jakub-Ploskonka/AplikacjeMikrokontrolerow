@@ -1,0 +1,2 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4_Utils.c:57:6:vSetMultiCastIPv4MacAddress	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4_Utils.c:78:12:prvChecksumIPv4Checks	12	static

@@ -1,0 +1,12 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:313:23:prvFindEntryIndex	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:412:17:prvUpdateCacheEntry	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:482:17:prvReadDNSCache	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:355:23:prvGetCacheIPEntry	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:443:17:prvInsertCacheEntry	40	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:183:10:FreeRTOS_dnsclear	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:203:16:FreeRTOS_ProcessDNSCache	96	static,ignoring_inline_asm
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:100:18:FreeRTOS_dnslookup	40	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:127:18:FreeRTOS_dnslookup6	40	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:163:16:FreeRTOS_dns_update	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:550:14:Prepare_CacheLookup	40	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Cache.c:624:14:vShowDNSCacheTable	56	static

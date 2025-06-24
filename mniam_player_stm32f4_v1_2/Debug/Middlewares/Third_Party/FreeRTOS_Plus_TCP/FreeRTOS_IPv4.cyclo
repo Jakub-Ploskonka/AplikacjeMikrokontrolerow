@@ -1,0 +1,5 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4.c:195:12:xIsIPv4Multicast	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4.c:244:12:xIsIPv4Loopback	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4.c:221:12:xBadIPv4Loopback	4
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4.c:268:29:prvAllowIPPacketIPv4	18
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4.c:476:29:prvCheckIP4HeaderOptions	1

@@ -1,0 +1,12 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:53:8:uxStreamBufferSpace	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:76:8:uxStreamBufferDistance	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:99:8:uxStreamBufferGetSpace	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:111:8:uxStreamBufferFrontSpace	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:124:8:uxStreamBufferGetSize	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:136:8:uxStreamBufferMidSpace	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:146:6:vStreamBufferClear	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:162:6:vStreamBufferMoveMid	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:196:12:xStreamBufferLessThenEqual	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:223:8:uxStreamBufferGetPtr	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:250:8:uxStreamBufferAdd	32	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_Stream_Buffer.c:350:8:uxStreamBufferGet	32	static

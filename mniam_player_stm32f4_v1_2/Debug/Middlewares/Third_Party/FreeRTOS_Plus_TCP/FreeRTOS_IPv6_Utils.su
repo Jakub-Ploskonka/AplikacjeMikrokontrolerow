@@ -1,0 +1,5 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Utils.c:55:6:vSetMultiCastIPv6MacAddress	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Utils.c:135:12:prvChecksumICMPv6Checks	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Utils.c:186:8:usGetExtensionHeaderLength	32	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Utils.c:74:12:prvChecksumIPv6Checks	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Utils.c:300:6:vManageSolicitedNodeAddress	24	static,ignoring_inline_asm

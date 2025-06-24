@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:232:23:prvTCPHandleFin	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:345:23:prvHandleSynReceived	64	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:498:23:prvHandleEstablished	48	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:96:16:prvTCPSocketIsActive	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:141:20:prvTCPStatusAgeCheck	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:706:16:prvTCPHandleState	48	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:909:25:prvHandleListen	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:949:16:prvTCPSocketCopy	40	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_State_Handling.c:1056:22:FreeRTOS_GetTCPStateName	0	static

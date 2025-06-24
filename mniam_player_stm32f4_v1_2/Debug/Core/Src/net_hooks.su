@@ -1,0 +1,4 @@
+../Core/Src/net_hooks.c:11:6:vApplicationIPNetworkEventHook_Multi	8	static
+../Core/Src/net_hooks.c:25:12:xApplicationGetRandomNumber	0	static
+../Core/Src/net_hooks.c:31:10:ulApplicationGetNextSequenceNumber	0	static
+../Core/Src/net_hooks.c:41:6:vApplicationStackOverflowHook	8	static

@@ -1,0 +1,22 @@
+#include "amcom.h"
+#include "amcom_packets.h"
+#include <stdint.h>
+
+#define MAX_ALL_OBJECTS 124
+
+/** Structure defining the game state */
+typedef struct {
+    AMCOM_ObjectState objects[MAX_ALL_OBJECTS];
+    int objectCount;
+
+    uint8_t playerNumber;
+    float myX, myY;
+    int8_t myHp;
+} GameState;
+
+/** Function for computing the direction of movement */
+float computeMoveDirection(const GameState* state);
+
+/** AMCOM packet handler handling game packets. */
+void amcomPacketHandler(const AMCOM_Packet* packet, void* userContext);
+

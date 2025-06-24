@@ -1,0 +1,5 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Networking.c:46:16:DNS_BindSocket	1
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Networking.c:66:14:DNS_CreateSocket	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Networking.c:101:16:DNS_SendRequest	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Networking.c:139:16:DNS_ReadReply	1
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Networking.c:168:10:DNS_CloseSocket	1

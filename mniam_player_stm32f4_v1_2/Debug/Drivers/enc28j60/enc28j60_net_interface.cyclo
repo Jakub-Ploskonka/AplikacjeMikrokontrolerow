@@ -1,0 +1,5 @@
+../Drivers/enc28j60/enc28j60_net_interface.c:31:19:netGetPhyLinkStatus	2
+../Drivers/enc28j60/enc28j60_net_interface.c:15:19:netOut	2
+../Drivers/enc28j60/enc28j60_net_interface.c:5:19:netInit	1
+../Drivers/enc28j60/enc28j60_net_interface.c:37:6:netInterfaceIsUp	1
+../Drivers/enc28j60/enc28j60_net_interface.c:41:6:pxFillInterfaceDescriptor	1

@@ -1,0 +1,5 @@
+../Drivers/enc28j60/enc28j60_net_interface.c:31:19:netGetPhyLinkStatus	8	static
+../Drivers/enc28j60/enc28j60_net_interface.c:15:19:netOut	16	static
+../Drivers/enc28j60/enc28j60_net_interface.c:5:19:netInit	8	static
+../Drivers/enc28j60/enc28j60_net_interface.c:37:6:netInterfaceIsUp	8	static
+../Drivers/enc28j60/enc28j60_net_interface.c:41:6:pxFillInterfaceDescriptor	8	static

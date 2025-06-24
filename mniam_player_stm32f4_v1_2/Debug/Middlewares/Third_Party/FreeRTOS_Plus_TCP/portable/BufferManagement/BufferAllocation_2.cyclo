@@ -1,0 +1,8 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:87:12:xNetworkBuffersInitialise	5
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:168:11:pucGetNetworkBuffer	7
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:235:6:vReleaseNetworkBuffer	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:394:6:vReleaseNetworkBufferAndDescriptor	3
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:253:29:pxGetNetworkBufferWithDescriptor	14
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:440:13:uxGetNumberOfFreeNetworkBuffers	1
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:446:13:uxGetMinimumFreeNetworkBuffers	1
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/portable/BufferManagement/BufferAllocation_2.c:452:29:pxResizeNetworkBufferWithDescriptor	4

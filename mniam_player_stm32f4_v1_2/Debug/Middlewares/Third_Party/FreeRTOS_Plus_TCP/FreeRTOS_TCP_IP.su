@@ -1,0 +1,10 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:277:23:vTCPRemoveTCPChild	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:700:28:xGetSourceAddrFromBuffer	4	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:109:10:vSocketCloseNextTime	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:125:10:vSocketListenNextTime	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:256:10:prvTCPTouchSocket	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:320:10:vTCPStateChange	72	static,ignoring_inline_asm
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:621:16:prvTCPNextTimeout	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:154:16:xTCPSocketCheck	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:752:16:xProcessReceivedTCPPacket	64	static,ignoring_inline_asm
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_IP.c:1005:16:xTCPCheckNewClient	0	static

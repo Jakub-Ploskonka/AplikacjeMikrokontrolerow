@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4_Sockets.c:69:12:FreeRTOS_inet_pton4	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4_Sockets.c:198:14:FreeRTOS_inet_ntop4	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4_Sockets.c:229:8:xSend_UDP_Update_IPv4	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv4_Sockets.c:256:8:xRecv_Update_IPv4	0	static

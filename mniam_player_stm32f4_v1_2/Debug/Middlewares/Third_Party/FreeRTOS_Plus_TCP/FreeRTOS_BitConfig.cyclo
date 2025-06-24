@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:57:12:xBitConfig_init	3
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:99:12:xBitConfig_read_uc	4
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:141:12:pucBitConfig_peek_last_index_uc	4
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:173:9:ucBitConfig_read_8	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:195:10:usBitConfig_read_16	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:218:10:ulBitConfig_read_32	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:246:6:vBitConfig_write_uc	3
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:277:6:vBitConfig_write_8	1
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:295:6:vBitConfig_write_16	1
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:316:6:vBitConfig_write_32	1
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_BitConfig.c:338:6:vBitConfig_release	3

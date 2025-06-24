@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Parser.c:59:12:DNS_ReadNameField	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Parser.c:172:12:DNS_SkipNameField	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Parser.c:626:14:parseDNSAnswer	112	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_DNS_Parser.c:253:14:DNS_ParseDNSReply	336	static

@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:628:17:vRAProcessInit	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:99:23:xGetLinkLocalAddress	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:271:38:vReceiveRA_ReadReply	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:441:23:xRAProcess_HandleWaitStates	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:130:10:vNDSendRouterSolicitation	48	static,ignoring_inline_asm
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:533:23:xRAProcess_HandleOtherStates	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:236:10:vReceiveNA	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:640:10:vRAProcess	8	static,ignoring_inline_asm
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_RA.c:362:10:vReceiveRA	24	static,ignoring_inline_asm

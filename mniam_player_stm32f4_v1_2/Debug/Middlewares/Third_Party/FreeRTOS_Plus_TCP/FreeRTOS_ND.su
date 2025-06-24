@@ -1,0 +1,14 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:115:32:pxFindLocalEndpoint	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:146:31:prvMACResolve	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:434:31:prvNDCacheLookup	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:533:17:prvReturnICMP_IPv6	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:914:17:prvCheckWaitingBuffer	16	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:184:24:eNDGetCacheEntry	32	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:279:10:vNDRefreshCacheEntry	32	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:419:10:FreeRTOS_ClearND	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:494:14:FreeRTOS_PrintNDCache	0	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:581:10:vNDSendNeighbourSolicitation	56	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:353:10:vNDAgeCache	8	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:956:30:prvProcessICMPMessage_IPv6	24	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:1160:10:FreeRTOS_OutputAdvertiseIPv6	24	static,ignoring_inline_asm
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_ND.c:1251:16:FreeRTOS_CreateIPv6Address	40	static,ignoring_inline_asm

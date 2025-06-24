@@ -1,0 +1,8 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:271:13:xGetIPv6MulticastGroupID	3
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:292:12:xIsIPv6Loopback	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:318:16:xBadIPv6Loopback	5
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:351:12:xIsIPv6AllowedMulticast	5
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:401:12:xCompareIPv6_Address	15
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:486:26:prvAllowIPPacketIPv6	10
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:596:12:xGetExtensionOrder	11
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6.c:660:26:eHandleIPv6ExtensionHeaders	4

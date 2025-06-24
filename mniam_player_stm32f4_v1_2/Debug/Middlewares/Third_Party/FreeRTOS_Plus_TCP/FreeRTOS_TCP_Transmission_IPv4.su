@@ -1,0 +1,3 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_Transmission_IPv4.c:84:6:prvTCPReturnPacket_IPV4	96	static,ignoring_inline_asm
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_Transmission_IPv4.c:331:12:prvTCPPrepareConnect_IPV4	32	static
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_TCP_Transmission_IPv4.c:480:12:prvTCPSendSpecialPktHelper_IPV4	8	static

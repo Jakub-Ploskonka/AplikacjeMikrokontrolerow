@@ -1,0 +1,12 @@
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:293:19:prv_ntop6_write_zeros	4
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:464:19:prv_inet_pton6_add_nibble	7
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:534:13:prv_inet_pton6_set_zeros	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:60:25:pxTCPSocketLookup_IPv6	8
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:105:8:xSend_UDP_Update_IPv6	2
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:130:8:xRecv_Update_IPv6	3
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:162:6:cHexToChar	3
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:196:11:uxHexPrintShort	6
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:344:19:prv_ntop6_write_short	4
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:238:6:prv_ntop6_search_zeros	7
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:398:14:FreeRTOS_inet_ntop6	7
+../Middlewares/Third_Party/FreeRTOS_Plus_TCP/FreeRTOS_IPv6_Sockets.c:564:12:FreeRTOS_inet_pton6	10
